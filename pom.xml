@@ -72,7 +72,9 @@
     <dependency>
       <groupId>hubert.dtu.dk</groupId>
       <artifactId>messaging-utilities</artifactId>
+      <scope>system</scope>
       <version>3.2</version>
+      <systemPath>${basedir}\src\lib\messaging-utilities-3.2.jar</systemPath>
     </dependency>
   </dependencies>
   <build>
