@@ -3,6 +3,7 @@ package domain;
 import java.util.ArrayList;
 
 public class Paymentlist {
+    //This is a test class, so that the client had connection to the facade
 
     ArrayList<Payment> list = new ArrayList<>();
 
