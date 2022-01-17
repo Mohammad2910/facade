@@ -1,7 +1,7 @@
 package domain;
 
 import java.util.ArrayList;
-
+// todo: This class should be deleted as the account will be saved in Account microservice
 public class AccountList {
     //This is a test class, so that the client had connection to the facade
 
@@ -15,5 +15,6 @@ public class AccountList {
 
 
     public void addAccount(DTUPayAccount account){list.add(account);}
+
     public ArrayList<DTUPayAccount> getAccountList(){ return list;}
 }

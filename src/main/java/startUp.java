@@ -8,7 +8,7 @@ public class startUp {
         System.out.println("startup");
         var mq = new RabbitMqQueue("localhost");
         FacadeController f = new FacadeController(mq);
-        new CustomerResource(f);
-        new MerchantResource(f);
+        //new CustomerResource(f);
+        //new MerchantResource(f);
     }
 }
