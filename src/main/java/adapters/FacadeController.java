@@ -1,8 +1,7 @@
 package adapters;
 
-import domain.DTUPayAccount;
-import domain.Payment;
-import messaging.MessageQueue;
+import domain.models.DTUPayAccount;
+import domain.models.Payment;
 import messaging.Event;
 
 public class FacadeController {

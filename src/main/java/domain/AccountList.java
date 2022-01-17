@@ -1,5 +1,7 @@
 package domain;
 
+import domain.models.DTUPayAccount;
+
 import java.util.ArrayList;
 // todo: This class should be deleted as the account will be saved in Account microservice
 public class AccountList {

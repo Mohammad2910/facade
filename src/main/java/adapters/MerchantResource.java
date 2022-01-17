@@ -3,7 +3,7 @@ package adapters;
 import javax.ws.rs.*;
 
 import domain.AccountList;
-import domain.DTUPayAccount;
+import domain.models.DTUPayAccount;
 import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
 

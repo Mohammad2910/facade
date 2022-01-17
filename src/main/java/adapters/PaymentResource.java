@@ -1,7 +1,7 @@
 package adapters;
 
-import domain.Payment;
-import domain.Paymentlist;
+import domain.models.Payment;
+import domain.PaymentList;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 @Path("/payment")
 public class PaymentResource {
 
-    private Paymentlist p = Paymentlist.getInstance();
+    private PaymentList p = PaymentList.getInstance();
 
     @POST
     @Produces(MediaType.APPLICATION_JSON)

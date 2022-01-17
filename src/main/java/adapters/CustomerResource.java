@@ -1,9 +1,7 @@
 package adapters;
 
 import domain.AccountList;
-import domain.DTUPayAccount;
-import domain.Payment;
-import domain.Paymentlist;
+import domain.models.DTUPayAccount;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
